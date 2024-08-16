@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    /* background:linear-gradient(white,orange,white); */
+    background-color: #f1ac18;
+  }
+  
+  /* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    height: 100px;
+    box-shadow: 3px 3px 5px  rgba(0, 0, 0, 0.123);
+    position: sticky;
+    background: white;
+   
+  }
+.navigation{
+    /* margin: 90px; */
+    margin-left: 120px;
+        
+}
+.icons{
+    font-size: 32px;
+    margin: 90px;
+}
+
+/* hero section */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.image{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.image:hover{
+    transition: all 2s ease-in-out 1s;
+    transform: skew(5deg);
+    
+}
+.tag{
+    background-color: green;
+    border: none;
+    width: 180px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: white;
+}
+.content h1{
+    font-size: 72px;
+    padding-right: 250px;
+}
+.content p{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.explore_btn{
+    background: white;
+    margin-top: 30px;
+    /* border: white; */
+    height: 30px;
+    width: 100px;
+}
+button:hover{
+    border: white;
+}
+.hero1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 120px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: -5px 15px 5px rgb(48, 48, 48);
+    height: 100px;
+    background-color: white;
+}
+.main:hover{
+    transition:  all 0.2s ease-in-out;
+    transform: scale(1.05);
+}
+.pic{
+    padding-left: 15px;
+}
+.content1 h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.content1 p{
+    font-size: 15px;
+    padding-right: 25px;
+    
+}
+.line{
+    margin: 100px;
+    width: 1200px;
+    border: 2px solid rgba(0, 0, 0, 0.151);
+}
+/* hero section end */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.tag1{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 5px 0px;
+    padding-left: 15px;
+}
+.container h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.grid{  
+    margin: 50px 200px;
+   display: grid;
+   gap: 10px;
+   grid-template-columns: repeat(4,1fr);
+   grid-template-rows: repeat(2,1fr);
+   
+}
+
+.items1{
+    grid-column-start: 1; 
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* box-shadow: -5px 15px 5px rgb(48, 48, 48); */
+}
+.items2{
+    grid-column-start: 3; 
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.items7{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+.gridimage {
+     height: 100%; 
+     width: 100%;
+     background-position: center;
+     border-radius: 10px;
+     
+     
+    
+}
+.gridimage:hover{
+    transition:  all 0.2s ease-in-out;
+     transform: scale(1.05);
+}
+.gridimage1{
+    height: 98%; 
+     width: 100%;
+     background-position: center;
+     border-radius: 10px;
+     
+}
+.gridimage1:hover{
+    transition:  all 0.2s ease-in-out;
+     transform: scale(1.05);
+}
+/* footer` */
+
+footer{
+    background-color:white;
+    height: 300px;
+    width: 99vw;
+}
+.footer_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 100px; */
+    padding-top: 50px;
+}
+.link_lists h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.link_lists li{
+    list-style: none;
+    line-height: 30px;
+    padding-top: 10px;
+}
+.news_letter input{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.icon_container{
+    display: flex;
+    gap: 10px;
+}
+.icon i{
+    font-size: 25px;
+}
+.icon i:hover{
+    color: #f1ac18;
+}
+   
